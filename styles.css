@@ -1,0 +1,708 @@
+/* Tablet Styles */
+@media only screen and (max-width: 500px) {
+.header{
+    background-color: white;
+    font-size: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.text_butt{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.text_butt h1{
+    color: rgb(161, 74, 74);
+    font-size: 40px;
+}
+.text_butt p{
+    font-size: 20px;
+    margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text_butt button{
+    padding: 15px;
+    background-color: rgb(161, 74, 74);
+    color: white;
+    border: 1px solid rgb(161, 74, 74);
+    border-radius: 10px;
+}
+.div_images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    height: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.pil{
+    color: rgb(161, 74, 74);
+
+}
+.container h1{
+    margin-top: 0;
+}
+.p{
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container button{
+    padding: 15px;
+    background-color: rgb(161, 74, 74);
+    border: 1px solid rgb(161, 74, 74);
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+}
+.kazakh{
+    height: 160px;
+    border-radius: 15px;
+}
+.div_kazakh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.class_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.class_div img{
+    height: 100px;
+}
+.class_p{
+    color: rgb(161, 74, 74);
+}
+.class h1{
+    margin-top: 0;
+}
+.class_div_p{
+    color: grey;
+}
+.mazir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.po{
+    color: rgb(161, 74, 74);
+}
+.mazir h1{
+    margin-top: 0%;
+}
+.mazir_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+}
+.mazir_div_div{
+    width: 140px;
+    height: 190px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.495);
+}
+.mazir_div_div img{
+    height: 100px;
+    margin-bottom: 0;
+}
+.mazir_div_div p{ 
+    margin-top: 0px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+}
+.pbp{
+    margin-top: 10px;
+}
+.mazir_div_div_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.foot b{
+    color: rgb(161, 74, 74);
+}
+.foot p{
+    color: grey;
+    margin-bottom: 40px;
+}
+.foot button{
+    background-color: rgb(161, 74, 74);
+    padding: 15px;
+    border: 1px solid rgb(161, 74, 74);
+    color: white;
+    border-radius: 10px;
+}
+.text{
+    margin-top: 50px;
+}
+.text h1{
+    color: rgb(161, 74, 74);
+    font-size: 20px;
+}
+.text p{
+    color: grey;
+    font-size: 15px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.kz{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.kz a{
+    color: black;
+    text-decoration: none;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    color: grey;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    display: none;
+}
+.tablet{
+    display: none;
+}
+}
+/* Tablet Styles */
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+    .header{
+        background-color: white;
+        font-size: 20px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        margin: auto;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 70%;
+    }
+    .menu a{
+        text-decoration: none;
+        color: gray;
+    }
+    .tab{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .text_butt{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    .text_butt h1{
+        color: rgb(161, 74, 74);
+        font-size: 50px;
+    }
+    .text_butt p{
+        font-size: 20px;
+        margin-top: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .text_butt button{
+        padding: 15px;
+        background-color: rgb(161, 74, 74);
+        color: white;
+        border: 1px solid rgb(161, 74, 74);
+        border-radius: 10px;
+    }
+    .images{
+        height: 350px;
+    }
+    .contain{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 30px;
+    }
+    .kazakh{
+        height: 190px;
+        border-radius: 15px;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 50px;
+    }
+    .pil{
+        color: rgb(161, 74, 74);
+    
+    }
+    .container h1{
+        margin-top: 0;
+    }
+    .p{
+        margin-top: 0;
+        color: grey;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .container button{
+        padding: 15px;
+        background-color: rgb(161, 74, 74);
+        border: 1px solid rgb(161, 74, 74);
+        color: white;
+        border-radius: 10px;
+        width: 200px;
+    }
+    .class{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .class_con_{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .class_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .class_div img{
+        height: 100px;
+    }
+    .class_p{
+        color: rgb(161, 74, 74);
+        font-size: 20px;
+    }
+    .class h1{
+        margin-top: 0;
+        font-size: 40px;
+    }
+    .class_div_p{
+        color: grey;
+    }
+    .mazir{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .po{
+        color: rgb(161, 74, 74);
+        font-size: 20px;
+    }
+    .mazir h1{
+        margin-top: 0%;
+        font-size: 40px;
+    }
+    .mazir_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 85%;
+    }
+    .mazir_div_div{
+        width: 200px;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.495);
+    }
+    .mazir_div_div img{
+        height: 150px;
+        margin-bottom: 0;
+    }
+    .mazir_div_div p{ 
+        margin-top: 0px;
+        margin-bottom: 4px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .pbp{
+        margin-top: 10px;
+    }
+    .mazir_div_div_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .phone{
+        display: none;
+    }
+    .foot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: start;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .foot b{
+        color: rgb(161, 74, 74);
+    }
+    .foot p{
+        color: grey;
+        margin-bottom: 40px;
+    }
+    .foot button{
+        background-color: rgb(161, 74, 74);
+        padding: 15px;
+        border: 1px solid rgb(161, 74, 74);
+        color: white;
+        border-radius: 10px;
+    }
+    .text{
+    margin-top: 50px;
+}
+.text h1{
+    color: rgb(161, 74, 74);
+    font-size: 20px;
+}
+.text p{
+    color: grey;
+    font-size: 15px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.kz{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.kz a{
+    color: black;
+    text-decoration: none;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer p{
+    color: grey;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+}
+  /* Desktop Styles */
+  @media only screen and (min-width: 1024px){
+    .header{
+        background-color: white;
+        font-size: 15px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        margin: auto;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 40%;
+    }
+    .menu a{
+        text-decoration: none;
+        color: gray;
+    }
+    .tab{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .text_butt{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: start;
+        text-align: start;
+        width: 30%;
+        gap: 10px;
+    }
+    .text_butt h1{
+        color: rgb(161, 74, 74);
+        font-size: 50px;
+    }
+    .text_butt p{
+        font-size: 20px;
+        margin-top: 0px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .text_butt button{
+        padding: 15px;
+        background-color: rgb(161, 74, 74);
+        color: white;
+        border: 1px solid rgb(161, 74, 74);
+        border-radius: 10px;
+    }
+    .images{
+        height: 500px;
+    }
+    .contain{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 100px;
+    }
+    .kazakh{
+        height: 280px;
+        border-radius: 15px;
+
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 50px;
+    }
+    .pil{
+        color: rgb(161, 74, 74);
+    
+    }
+    .container h1{
+        margin-top: 0;
+        font-size: 40px;
+    }
+    .p{
+        margin-top: 0;
+        color: grey;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .container button{
+        padding: 15px;
+        background-color: rgb(161, 74, 74);
+        border: 1px solid rgb(161, 74, 74);
+        color: white;
+        border-radius: 10px;
+        width: 200px;
+    }
+   
+    .phone{
+        display: none;
+    }
+    .class{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .class_con_{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin-top: 40px;
+    }
+    .class_div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .class_div img{
+        height: 100px;
+    }
+    .class_p{
+        color: rgb(161, 74, 74);
+        font-size: 20px;
+    }
+    .class h1{
+        margin-top: 0;
+        font-size: 40px;
+    }
+    .class_div_p{
+        color: grey;
+    }
+    .mazir{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .po{
+        color: rgb(161, 74, 74);
+        font-size: 20px;
+    }
+    .mazir h1{
+        margin-top: 0%;
+        font-size: 40px;
+    }
+    .mazir_div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 60%;
+    }
+    .mazir_div_div{
+        width: 200px;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.495);
+    }
+    .mazir_div_div img{
+        height: 150px;
+        margin-bottom: 0;
+    }
+    .mazir_div_div p{ 
+        margin-top: 0px;
+        margin-bottom: 4px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .pbp{
+        margin-top: 10px;
+    }
+    .mazir_div_div_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .foot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: start;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .foot b{
+        color: rgb(161, 74, 74);
+    }
+    .foot p{
+        color: grey;
+        margin-bottom: 40px;
+    }
+    .foot button{
+        background-color: rgb(161, 74, 74);
+        padding: 15px;
+        border: 1px solid rgb(161, 74, 74);
+        color: white;
+        border-radius: 10px;
+    }
+    .text{
+        margin-top: 50px;
+    }
+    .text h1{
+        color: rgb(161, 74, 74);
+        font-size: 20px;
+    }
+    .text p{
+        color: grey;
+        font-size: 15px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #f8f8f8;
+    }
+    .kz{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .kz a{
+        color: black;
+        text-decoration: none;
+        
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    footer p{
+        color: grey;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .fot{
+        background-color: #f8f8f8;
+        margin-top: 0;
+        padding-top: 10px;
+    }
+  }
